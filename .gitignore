@@ -1,0 +1,5 @@
+node_modules/
+dist/
+sim_captures/
+.DS_Store
+*.log

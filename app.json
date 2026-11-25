@@ -1,0 +1,24 @@
+{
+  "package_id": "ink.zky.evenpulse",
+  "edition": "202601",
+  "name": "EvenPulse",
+  "version": "1.0.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Fetch live read-only prediction market odds from Polymarket and real-time perpetual market prices, funding rates, and candles from Hyperliquid (mainnet read-only & testnet paper execution).",
+      "whitelist": [
+        "https://gamma-api.polymarket.com",
+        "https://clob.polymarket.com",
+        "https://api.hyperliquid.xyz",
+        "https://api.hyperliquid-testnet.xyz"
+      ]
+    }
+  ],
+  "supported_languages": [
+    "en"
+  ]
+}
